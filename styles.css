@@ -1,0 +1,55 @@
+   *{
+      box-sizing:border-box;
+      margin:0;
+      padding:0;
+    }
+
+  div.container{
+    border: 5px solid lightcyan; 
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+.hero img{
+  width: 100%; 
+  border: 5px solid black;
+}
+  div.left, div.middle left, div.right{ 
+  border: 5px solid black;
+  width: 31%;
+  float: left;
+}
+  aside img{
+    width: 100%;
+}
+aside{
+  display: flex;
+  justify-content: space-between;
+}
+ nav{
+  background-color: darkgrey;
+  border: 5px solid black;
+ }
+ ul{
+  text-align: center;
+ }
+ li{
+  display: inline-block;
+  width: 115px;
+  line-height: 3em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ a{
+  color: aliceblue;
+  text-decoration: none;
+  display: block;
+ }
+ header{
+  background-color:lightcyan;
+ text-decoration: double;
+ text-align: center;
+ }
+ footer{
+  background-color: darkgrey;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
